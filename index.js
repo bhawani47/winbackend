@@ -89,6 +89,4 @@ app.use('/api/applybonus',applyBonusRoute);
  
 
 
-app.listen(port,'0.0.0.0',()=>{
-    console.log(`app is running on port ${port}`);
-});
+app.listen();
