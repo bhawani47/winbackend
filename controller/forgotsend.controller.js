@@ -25,7 +25,7 @@ const sendForgotOtp = async(req,res,next)=>{
             //CALLING USER API HERE 
             client.messages .create({ 
                 body: `Your varification code is ${otp}`,  
-                messagingServiceSid: 'MG3a8c7b02d033dcb5eb998afb8476175c',      
+                messagingServiceSid: 'MGff98014408167a893cf4c70b4f32287e',      
                 to: `+91${mobile}`
                });
             res.json({message:'OTP_SENT'});
@@ -40,7 +40,7 @@ const sendForgotOtp = async(req,res,next)=>{
      //calling api here only !
      client.messages .create({ 
         body: `Your varification code is ${otp}`,  
-        messagingServiceSid: 'MG3a8c7b02d033dcb5eb998afb8476175c',      
+        messagingServiceSid: 'MGff98014408167a893cf4c70b4f32287e',      
         to: `+91${mobile}`
        });
 
